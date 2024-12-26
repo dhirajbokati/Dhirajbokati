@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhiraj's Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 50px;
+            background: #6200ea;
+            color: white;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+        }
+        a {
+            color: #6200ea;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hi, I'm Dhiraj!</h1>
+        <p>Welcome to my personal profile website.</p>
+    </header>
+
+    <section>
+        <div class="card">
+            <h2>About Me</h2>
+            <p>I am a bachelor student passionate about design, art, and gaming. I love creating and learning new things every day.</p>
+        </div>
+
+        <div class="card">
+            <h2>Portfolio</h2>
+            <ul>
+                <li><a href="#">Design Project 1</a></li>
+                <li><a href="#">Art Illustration</a></li>
+                <li><a href="#">Work From Home Ideas</a></li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:dhiraj@example.com">dhiraj@example.com</a></p>
+            <p>Page: <a href="https://facebook.com/designandart">Design and Art</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Dhiraj | Built with ❤️</p>
+    </footer>
+</body>
+</html>
